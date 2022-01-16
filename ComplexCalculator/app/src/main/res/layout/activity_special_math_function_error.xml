@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".specialmathfunction.ActivitySpecialMathFunctionError"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter z ..."
+        android:id="@+id/editTextErrorFunction_erfFunc_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Erf(z)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonErrorFunction_erfFunc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewErrorFunction_erfFunc_result"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter x ..."
+        android:id="@+id/editTextErrorFunction_inverseErfFunc_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Erf_Inverse(x)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonErrorFunction_inverseErfFunc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewErrorFunction_inverseErfFunc_result"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter z ..."
+        android:id="@+id/editTextErrorFunction_erfcFunc_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Erfc(z)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonErrorFunction_erfcFunc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewErrorFunction_erfcFunc_result"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter x ..."
+        android:id="@+id/editTextErrorFunction_inverseErfcFunc_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Erfc_Inverse(x)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonErrorFunction_inverseErfcFunc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewErrorFunction_inverseErfcFunc_result"
+        android:textSize="20sp"/>
+
+</LinearLayout>

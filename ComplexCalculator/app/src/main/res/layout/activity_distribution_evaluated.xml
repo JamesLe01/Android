@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".probability.probabilitydistribution.ActivityContinuousDistributionEvaluated"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:id="@+id/textViewSummaryProbability" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:visibility="gone"
+        android:id="@+id/linearLayout1Probability">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/textView1Probability"
+            android:gravity="center"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:id="@+id/editText1ContinuousProbability" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:visibility="gone"
+        android:id="@+id/linearLayout2Probability">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/textView2Probability"
+            android:gravity="center"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:id="@+id/editText2Probability"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:visibility="gone"
+        android:id="@+id/linearLayout3Probability">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/textView3Probability"
+            android:gravity="center"
+            android:textSize="16sp"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:id="@+id/editText3Probability"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:layout_gravity="center"
+        android:id="@+id/buttonConfirmProbability"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewMeanProbability"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewVarianceProbability"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEvaluatePMF_PDF_Probability"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/buttonConfirmPMF_PDF_Probability"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/textViewPMF_PDF_ResultProbability"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Evaluate CDF at ..."
+        android:id="@+id/editTextEvaluateCDFProbability"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/buttonConfirmCDFProbability"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:text="EVALUATE CDF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/textViewCDFResultProbability"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Evaluate Quantile at ..."
+        android:id="@+id/editTextEvaluateInverseCDFProbability"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/buttonConfirmInverseCDFProbability"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:text="EVALUATE QUANTILE FUNCTION"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/textViewInverseCDFResultProbability"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

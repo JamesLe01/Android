@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="PROBABILITY"
+        android:id="@+id/buttonProbabilityActivityMain"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="SPECIAL MATH FUNCTIONS"
+        android:id="@+id/buttonSpecialMathFunctionActivityMain"/>
+
+
+</LinearLayout>

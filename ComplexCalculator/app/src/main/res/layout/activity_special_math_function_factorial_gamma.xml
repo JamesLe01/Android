@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".specialmathfunction.ActivitySpecialMathFunctionFactorialGamma"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter n ..."
+        android:id="@+id/editTextFactorialGammaFunction_factorial_n" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE n!"
+        android:layout_gravity="center"
+        android:id="@+id/buttonFactorialGammaFunction_factorial"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFactorialGammaFunction_factorial_result"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter z ..."
+        android:id="@+id/editTextFactorialGammaFunction_gamma_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Gamma(z)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonFactorialGammaFunction_gamma"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFactorialGammaFunction_gamma_result"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter z ..."
+        android:id="@+id/editTextFactorialGammaFunction_digamma_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Digamma(z)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonFactorialGammaFunction_digamma"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFactorialGammaFunction_digamma_result"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter z ..."
+        android:id="@+id/editTextFactorialGammaFunction_trigamma_z" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Trigamma(z)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonFactorialGammaFunction_trigamma"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFactorialGammaFunction_trigamma_result"
+        android:textSize="20sp"/>
+
+</LinearLayout>

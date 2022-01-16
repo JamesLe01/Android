@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".specialmathfunction.ActivitySpecialMathFunctionBeta"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a ..."
+            android:id="@+id/editTextBetaFunction_betaFunc_a"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter b ..."
+            android:id="@+id/editTextBetaFunction_betaFunc_b"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE Beta(alpha, beta)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonBetaFunction_betaFunc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBetaFunction_betaFunc_result"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter x ..."
+            android:id="@+id/editTextBetaFunction_betaIncompleteFunc_x"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a ..."
+            android:id="@+id/editTextBetaFunction_betaIncompleteFunc_a"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter b ..."
+            android:id="@+id/editTextBetaFunction_betaIncompleteFunc_b"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE B(x, a, b)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonBetaFunction_betaIncompleteFunc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBetaFunction_betaIncompleteFunc_result"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter x ..."
+            android:id="@+id/editTextBetaFunction_regularizedBeta_x"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a ..."
+            android:id="@+id/editTextBetaFunction_regularizedBeta_a"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter b ..."
+            android:id="@+id/editTextBetaFunction_regularizedBeta_b"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE I(x, a, b)"
+        android:layout_gravity="center"
+        android:id="@+id/buttonBetaFunction_regularizedBeta"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBetaFunction_regularizedBeta_result"
+        android:textSize="20sp"/>
+
+</LinearLayout>
